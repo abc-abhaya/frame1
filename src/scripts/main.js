@@ -1,4 +1,6 @@
 import myImage from '../assets/it-department.png';
+import setFavicon from './favicon';
+
 const { log } = console;
 log('Namaste Nepal');
 
@@ -10,3 +12,4 @@ img.src = myImage;
 
 div.append(h1, img);
 document.body.appendChild(div);
+setFavicon(myImage, 'png');
